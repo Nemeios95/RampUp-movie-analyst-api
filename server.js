@@ -1,3 +1,5 @@
+const dotenv = require("dotenv");
+dotenv.config();
 // Get our dependencies
 var express = require('express');
 var app = express();
